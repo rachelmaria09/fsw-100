@@ -1,0 +1,31 @@
+.box-container {
+    display: grid;
+    margin: 40px;
+    grid-template-rows: repeat(6 200px);
+    grid-template-columns: 200px;
+    background-color: cornsilk;
+}
+.box1 {
+    background-color: burlywood;
+    grid-row: 1 / 2;
+}
+.box2 {
+    background-color: burlywood;
+    grid-row: 2 / 3;
+}
+.box3 {
+    background-color: burlywood;
+    grid-row: 3 / 4;
+}
+.box4 {
+    background-color: burlywood;
+    grid-row: 4 / 5;
+}
+.box5 {
+    background-color: burlywood;
+    grid-row: 5 / 6;
+}
+.box6 {
+    background-color: burlywood;
+    grid-row: 6 / 7;
+}
