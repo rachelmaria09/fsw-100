@@ -5,34 +5,101 @@
     grid-template-columns: 200px;
     background-color: cornsilk;
     grid-gap: 10px;
+    justify-content: center;
 }
 .box1 {
     background-color: burlywood;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
+    transition: background-color 1s linear 1s;
+    position: relative;
 }
 .box2 {
     background-color: burlywood;
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
 }
 .box3 {
     background-color: burlywood;
     grid-row: 3 / 4;
     grid-column: 1 / 2;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
 }
 .box4 {
     background-color: burlywood;
     grid-row: 4 / 5;
     grid-column: 1 / 2;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
 }
 .box5 {
+    position: relative;
+    display: inline-block;
     background-color: burlywood;
     grid-row: 5 / 6;
     grid-column: 1 / 2;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.text {
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
 }
 .box6 {
     background-color: burlywood;
     grid-row: 6 / 7;
     grid-column: 1 / 2;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+.text1 {
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.box1:hover {
+    background-color: salmon;
+    width: 400px;
+    height: 400px;
+}
+.box2:hover {
+    background-color: springgreen;
+    border-radius: 20px;
+    box-shadow: green;
+}
+.box3:hover {
+    background-color: lightskyblue;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+.box4:hover {
+    background-color: lightpink;
+    border-style: double;
+    border-color: darkgrey;
+}
+.box5:hover {
+    background-color: greenyellow;
+    position: relative;
+    top: -4px;
+}
+.text:hover {
+    text-decoration: underline;
+}
+.box6:hover {
+    background-color: rosybrown;
+    margin: 60px;
+}
+.text1:hover {
+    font-size: xx-small;
 }
