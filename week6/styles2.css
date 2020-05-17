@@ -42,13 +42,18 @@ nav li {
     text-decoration: underline;
 }
 .image1 {
-    height: 300px;
-    width: 200px;
+    height: 200px;
+    width: 160px;
     float: right;
     padding: 10px;
 }
 .paragraph {
     font-size: 20px;
+}
+.list2 {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 60px;
 }
 .grid2 {
     grid-row: 2 / 3;
@@ -71,16 +76,14 @@ nav li {
     background-color: peachpuff;
     margin: 40px;
 }
+.center {
+    display: flex;
+    justify-content: center;
+}
 .footer {
     grid-row: 6 / 7;
     grid-column: 1 / 2;
     background-color: peachpuff;
-}
-.list2 {
-    list-style-type: circle;
-    display: inline-block;
-    text-align: center;
-    margin-left: 300px;
 }
 .image2 {
     height: 200px;
@@ -125,6 +128,34 @@ nav li {
 .btn:hover {
     text-decoration: underline;
 }
-.table {
-    border-collapse: 1px solid black;
+@media only screen and (min-width: 768px) {
+    .image1 {
+        height: auto;
+        width: 15%;
+        float: right;
+        padding: 10px;
+    }
+    .list2 {
+        list-style-type: none;
+        text-align: left;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .image1 {
+        height: 10%;
+        width: 10%;
+        float: right;
+        padding: 10px;
+    }
+    .paragraph {
+        font-size: 20px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 50px;
+    }
+    .list2 {
+        list-style-type: none;
+        text-align: left;
+        margin-left: 560px;
+    }
 }
