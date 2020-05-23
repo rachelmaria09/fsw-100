@@ -1,0 +1,101 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: darkslategray;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px auto auto;
+}
+.container {
+    color: darkslategray;
+}
+.logo {
+    width: 100px;
+    float: left;
+}
+.top-right {
+    list-style-type: none;
+    float: right;
+}
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+nav {
+    background-color: rgb(255, 238, 177);
+}
+a {
+    text-decoration: none;
+    color: darkslategray;
+}
+a:hover {
+    text-decoration: underline;
+}
+.image {
+    position: relative;
+    margin-top: 20px;
+}
+.table {
+    float: left;
+    top: 180px;
+    position: absolute;
+    table-layout: fixed;
+    margin-left: 320px;
+    width: 230px;
+    height: 240px;
+    color: whitesmoke;
+}
+table, th, td {
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+    Padding: 8px;
+    margin: 10px;
+}
+.linkedin {
+    text-decoration: none;
+    color: darkslategray;
+}
+.portfolium {
+    text-decoration: none;
+    color: darkslategray;
+}
+.linkedin:hover {
+    text-decoration: underline;
+}
+.portfolium:hover {
+    text-decoration: underline;
+}
+.footer {
+    text-align: center;
+}
+@media only screen and (max-width: 524px) {
+    .image {
+        width: 400px;
+    }
+    .table {
+        width: 200px;
+        height: 200px;
+        margin-left: 210px;
+        top: 140px;
+    }
+    .logo {
+        width: 0;
+    }
+    .top-right {
+        margin-left: 100px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .table {
+        margin-left: 400px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .table {
+        margin-left: 600px;
+    }
+    .top-right {
+        margin-left: 800px;
+    }
+}

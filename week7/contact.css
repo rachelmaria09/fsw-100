@@ -1,0 +1,70 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: darkslategray;
+    display: grid;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px auto auto;
+}
+.container {
+    color: darkslategray;
+}
+.logo {
+    width: 100px;
+    float: left;
+}
+.top-right {
+    list-style-type: none;
+    float: right;
+}
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+nav {
+    background-color: rgb(255, 238, 177);
+}
+a {
+    text-decoration: none;
+    color: darkslategray;
+}
+a:hover {
+    text-decoration: underline;
+}
+.title {
+    top: 40px;
+    margin: 20px;  
+}
+.flex-container {
+    display: flex;
+    top: 160px;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: left;
+    align-items: left;
+}
+.footer {
+    text-align: center;
+    margin-top: 180px;
+}
+.linkedin {
+    text-decoration: none;
+    color: darkslategray;
+}
+.portfolium {
+    text-decoration: none;
+    color: darkslategray;
+}
+.linkedin:hover {
+    text-decoration: underline;
+}
+.portfolium:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width: 524px) {
+    .logo {
+        width: 0;
+    }
+}

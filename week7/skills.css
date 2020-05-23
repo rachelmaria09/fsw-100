@@ -1,0 +1,138 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: darkslategray;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px auto auto;
+}
+.logo {
+    width: 100px;
+    float: left;
+}
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.navbar {
+    background-color: rgb(255, 238, 177);
+}
+.top-right {
+    margin-left: 180px;
+}
+a {
+    text-decoration: none;
+    color: darkslategray;
+}
+a:hover {
+    text-decoration: underline;
+}
+main {
+    margin: 40px;
+}
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-basis: auto;
+}
+.flex1 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.flex2 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.flex3 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.flex4 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.flex5 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.flex6 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.flex7 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.flex8 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.flex9 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.flex10 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.flex11 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.flex12 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.flex13 {
+    background-color: rgb(186, 213, 229);
+    margin: 4px;
+    border-radius: 2px;
+}
+.image {
+    padding: 2px;
+    border: solid darkslategray 1px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin: 20px;
+}
+.footer {
+    text-align: center;
+}
+@media only screen and (max-width: 524px) {
+    .image {
+        width: 300px;
+    }
+    .logo {
+        width: 0;
+    }
+    .top-right {
+        margin-left: 120px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .top-right {
+        margin-left: 380px;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .top-right {
+        margin-left: 500px;
+    }
+}
