@@ -85,17 +85,23 @@ table, th, td {
     .top-right {
         margin-left: 100px;
     }
+    nav li {
+        float: right;
+    }
 }
 @media only screen and (min-width: 600px) {
     .table {
         margin-left: 400px;
+    }
+    nav li {
+        float: right;
     }
 }
 @media only screen and (min-width: 992px) {
     .table {
         margin-left: 600px;
     }
-    .top-right {
-        margin-left: 800px;
+    nav li {
+        float: right;
     }
 }

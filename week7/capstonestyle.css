@@ -91,20 +91,21 @@ main {
         flex-direction: column;
     }
     .top-right {
-        margin-right: 60px;
+        margin-right: 10px;
     }
    .title {
        font-size: 2em;
        color: darkslategray;
        margin-top: 100px;
-       margin-right: 20px;
+       margin-right: 16px;
    }
     body {
-        background-size: 400px;
+        background-size: 500px;
         text-align: center;
+        justify-content: center;
     }
     main {
-        margin-top: 80px;
+        margin-top: 160px;
     }
     .service1 {
         font-size: small;
@@ -141,6 +142,7 @@ main {
 @media only screen and (min-width: 992px) {
     body {
         background-repeat: repeat-x;
+        justify-content: center;
     }
     .grid {
         grid-template-rows: 400px auto auto auto auto auto;
